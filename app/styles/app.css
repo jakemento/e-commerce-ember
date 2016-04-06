@@ -1,4 +1,23 @@
 img {
-  width: 100px;
-  height: 100px;
+  width: 120px;
+  height: 120px;
+  opacity: .7;
+}
+
+li {
+  list-style-type: none;
+}
+
+.descriptionFormat {
+  width: 40%;
+  border: 2px;
+  border-style: solid;
+}
+
+.nameFormat {
+  text-decoration: overline;
+}
+
+.moneyFormat {
+  font-size: 20px;
 }

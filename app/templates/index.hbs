@@ -1,7 +1,9 @@
-<ul>
-  {{#each model as |listing|}}
-    {{listing-tile listing=listing deleteListing="deleteListing"}}
-  {{/each}}
-</ul>
-
-{{new-listing saveB="saveC"}}
+<center>  <ul>
+    {{#each model as |listing|}}
+    <div class="col-md-6">
+      {{listing-tile listing=listing deleteListing="deleteListing"}}
+      <br> <br>
+    </div>
+    {{/each}}
+  </ul>
+ {{new-listing saveB="saveC"}} </center>

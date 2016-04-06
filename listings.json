@@ -1,7 +1,7 @@
 { "listings": [{
   "name": "Mountain-Man Jerky",
   "price": "18",
-  "description": "this jerky is hand-made by Greg, using select cuts of steak, and marinaded for 3 weeks prior prior to smoking.",
+  "description": "this jerky is hand-made by Greg, using select cuts of steak, and marinated for 3 weeks prior prior to smoking.",
   "image": "http://www.gotbuffalo.com/images/Buffalo_Jerky_Sticks.jpg"
   }, {
     "name": "Smoked Bacon",
@@ -9,7 +9,7 @@
     "description": "This bacon is cooked by smoking it on a outdoor smoker for multiple days, after a 2-week curing process. Hand-crafted in small batches to perfection!",
     "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRdSQqBk-rKDZ25Y5hAsICsWcg3oO7xF9-4fmkF7QsRQ8hj3iNnzw"
   }, {
-    "name": "Chocolate Chip-Oatmeal Cookies",
+    "name": "Chocolate Chip Cookies",
     "price":"8",
     "description": "These cookies are made by Greg's wife: Wendy, and are delicous and healthy. A real treat.",
     "image": "https://www.meals.com/imagesrecipes/144813lrg.jpg"
