@@ -1,0 +1,32 @@
+{ "listings": [{
+  "name": "Mountain-Man Jerky",
+  "price": "18",
+  "description": "this jerky is hand-made by Greg, using select cuts of steak, and marinaded for 3 weeks prior prior to smoking.",
+  "image": "http://www.gotbuffalo.com/images/Buffalo_Jerky_Sticks.jpg"
+  }, {
+    "name": "Smoked Bacon",
+    "price":"15",
+    "description": "This bacon is cooked by smoking it on a outdoor smoker for multiple days, after a 2-week curing process. Hand-crafted in small batches to perfection!",
+    "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRdSQqBk-rKDZ25Y5hAsICsWcg3oO7xF9-4fmkF7QsRQ8hj3iNnzw"
+  }, {
+    "name": "Chocolate Chip-Oatmeal Cookies",
+    "price":"8",
+    "description": "These cookies are made by Greg's wife: Wendy, and are delicous and healthy. A real treat.",
+    "image": "https://www.meals.com/imagesrecipes/144813lrg.jpg"
+  }, {
+    "name": "Greg's Coffee Beans",
+    "price":"20",
+    "description": "These beans are bought-locally, and roasted to perfection using a decades-old technique passed down from Greg's father to Greg. If you are looking for a quick pick-me-up add these delicous beans to your cart.",
+    "image": "http://media.abesmarket.com/media/catalog/product/cache/1/image/2000x/9df78eab33525d08d6e5fb8d27136e95/c/r/craft_package_gold_1.jpg"
+  }, {
+    "name": "Trail Mix",
+    "price":"6",
+    "description": "AKA GORP (granola, oatmeal, raisin, peanuts) is a must-have for day-hikes, camping trips, and just those looking for a little bit of extra engergy. Made from local ingredients.",
+    "image": "http://www.lawfullyweddedwife.com/wp-content/uploads/2011/07/dsc00437.jpg"
+  }, {
+    "name": "Smoked Salmon",
+    "price":"18",
+    "description": "This smoked salmon is caught locally in Portland, on the Willamette River, and smoked to perfection with a medley of flavors and spices.",
+    "image": "http://shelflifetastetest.com/wp-content/uploads/2008/12/pcsmokedsalmon.jpg"
+  }]
+}

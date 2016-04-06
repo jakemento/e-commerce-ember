@@ -1,0 +1,8 @@
+{{#link-to 'index'}} Go Back to Inventory {{/link-to}}
+<hr>
+
+{{listing.name}} <br>
+{{listing.description}} <br>
+<img src="{{listing.image}}">
+<br>
+<button {{action 'delete' listing}}>Delete </button>

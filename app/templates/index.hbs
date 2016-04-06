@@ -1,0 +1,10 @@
+<h1> Greg's Trading Post </h1>
+
+
+<ul>
+  {{#each model as |listing|}}
+    {{listing-tile listing=listing deleteListing="deleteListing"}}
+  {{/each}}
+</ul>
+
+{{new-listing saveB="saveC"}}
