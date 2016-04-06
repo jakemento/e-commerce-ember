@@ -1,0 +1,27 @@
+{{#if addNewReview}}
+  <h1> New Review </h1>
+    <div>
+      <form>
+        <div class="form-group">
+          <label for="author">Author </label>
+          {{input value= author id="author"}}
+        </div>
+
+        <div class="form-group">
+          <label for="text">text </label>
+          {{input value= text id="text"}}
+        </div>
+
+        <div class="form-group">
+          <label for="rating">rating </label>
+          {{input placeholder="(1-5)" value= rating id="rating"}}
+        </div>
+
+        <button {{action 'save1'}}>Save </button>
+        <button {{action 'cancel'}}>Cancel </button>
+      </form>
+    </div>
+  {{else}}
+  <br>
+  <center> <button {{action 'reviewFormShow'}}> New Review </button> </center>
+{{/if}}

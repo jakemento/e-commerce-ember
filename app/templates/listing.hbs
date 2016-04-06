@@ -1,1 +1,13 @@
 <center> {{listing-detail listing=model deleteListing="deleteListing"}} </center>
+
+{{new-review save2="save3" post=model}}
+
+<hr>
+<center> <h2> Reviews: </h2> </center>
+<ul>
+  {{#each model.reviews as |review|}}
+  <div class="col-md-6">
+    {{review-tile review=review deleteReview="deleteReview" edit="editReview"}}
+  </div>
+  {{/each}}
+</ul>

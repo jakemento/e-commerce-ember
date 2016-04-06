@@ -1,5 +1,6 @@
 {{#link-to 'index'}} Go Back to Inventory {{/link-to}}
 <hr>
+<button {{action 'delete' listing}}>Delete </button>
 
 <div class="moneyFormat">
   ${{listing.price}}
@@ -17,4 +18,3 @@
 <br>
 <img src="{{listing.image}}">
 <br>
-<button {{action 'delete' listing}}>Delete </button>
