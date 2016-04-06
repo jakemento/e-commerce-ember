@@ -58,5 +58,10 @@
       "price":"9",
       "description": "Chocolate-chip and coconut brownies.",
       "image": "http://www.inspiredtaste.net/wp-content/uploads/2013/08/Brownies-Recipe-2.jpg"
+    }],
+  "reviews": [{
+    "author": "Jake S",
+    "text": "This is an excellent product!",
+    "rating": "5"
     }]
 }

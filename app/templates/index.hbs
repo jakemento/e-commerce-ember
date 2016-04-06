@@ -1,5 +1,5 @@
 <center>  <ul>
-    {{#each model as |listing|}}
+    {{#each model.listings as |listing|}}
     <div class="col-md-4">
       {{listing-tile listing=listing deleteListing="deleteListing"}}
       <br> <br>
@@ -7,3 +7,12 @@
     {{/each}}
   </ul>
  {{new-listing saveB="saveC"}} </center>
+
+
+<p> Reviews: </p>
+ <ul>
+   {{#each model.reviews as |review|}}
+     <li>{{review.text}} </li>
+     <li> - {{review.author}} </li>
+   {{/each}}
+ </ul>
