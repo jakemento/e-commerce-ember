@@ -3,17 +3,17 @@
 <button {{action 'delete' listing}}>Delete </button>
 
 <div class="moneyFormat">
-  ${{listing.price}}
+  <p class="red"> ${{listing.price}} </p>
 </div>
 
 <br>
 
 <div class="nameFormat">
-  {{listing.name}}
+  <p> {{listing.name}} </p>
 </div>
 <br>
 <div class="descriptionFormat">
-  Description: {{listing.description}}
+  <p> Description: {{listing.description}} </p>
 </div>
 <br>
 <img src="{{listing.image}}">

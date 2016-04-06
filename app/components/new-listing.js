@@ -6,6 +6,9 @@ export default Ember.Component.extend({
     listingFormShow() {
       this.set('addNewListing',true);
     },
+    listingFormHide() {
+      this.set('addNewListing',false);
+    },
 
     saveA() {
       var params = {

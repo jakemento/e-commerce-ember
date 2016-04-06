@@ -25,8 +25,44 @@ li {
 .names {
   font-size: 18px;
   font-weight: 200;
+
 }
 
 .text {
   font-size: 17px;
+}
+
+.glyphicon {
+  color: red;
+}
+
+.border {
+  border: 2px;
+  border-style: solid;
+  width: 17%;
+}
+
+.jumbotron {
+  font-family: "Rosewood Std", cursive;
+  color: purple;
+  background-image: url(http://www.iowacitycoralville.org/images/pages/N527/main-category-hero-general.jpg);
+}
+
+body {
+background-color: black;
+}
+
+.fancyTitle {
+  font-size: 24px;
+  background-color: white;
+  height: 85px;
+  padding-bottom: 1px;
+  width: 30%;
+}
+p, h1, h2, h3, li, ol, ul {
+  color: white;
+}
+
+.red {
+  color: red;
 }

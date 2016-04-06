@@ -1,7 +1,10 @@
+<h3 class="border"> Popular item: <span class="glyphicon glyphicon-fire"></span> </h3> 
+
 <center>  <ul>
     {{#each model.listings as |listing|}}
     <div class="col-md-4">
       {{listing-tile listing=listing deleteListing="deleteListing"}}
+      {{review-popularity listing}}
       <br> <br>
     </div>
     {{/each}}
