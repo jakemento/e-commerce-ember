@@ -54,10 +54,10 @@ background-color: black;
 
 .fancyTitle {
   font-size: 24px;
-  background-color: white;
+  background-color: black;
   height: 85px;
   padding-bottom: 1px;
-  width: 30%;
+  width: 34%;
 }
 p, h1, h2, h3, li, ol, ul {
   color: white;

@@ -33,6 +33,15 @@ export default Ember.Route.extend({
 
     deleteReview(review) {
       review.destroyRecord();
-    }
+    },
+    update(listing, params) {
+      Object.keys(params).forEach(function(key) {
+        if(params[key]!==undefined) {
+          listing.set(key,params[key]);
+        }
+      });
+      listing.save();
+      this.transitionTo('index');
+    },
   }
 });

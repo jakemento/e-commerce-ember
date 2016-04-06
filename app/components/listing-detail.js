@@ -6,6 +6,9 @@ export default Ember.Component.extend({
       if(confirm('Are you sure you want to delete this listing?')) {
         this.sendAction('deleteListing', listing);
       }
+    },
+    update(listing, params) {
+      this.sendAction('update', listing, params);
     }
   }
 });
