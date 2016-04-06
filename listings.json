@@ -28,5 +28,35 @@
     "price":"18",
     "description": "This smoked salmon is caught locally in Portland, on the Willamette River, and smoked to perfection with a medley of flavors and spices.",
     "image": "http://shelflifetastetest.com/wp-content/uploads/2008/12/pcsmokedsalmon.jpg"
-  }]
+    }, {
+      "name": "Baked Apple Pie",
+      "price":"6",
+      "description": "These pies are baked with love and care, and contain fresh local and organic ingredients",
+      "image": "http://foodnetwork.sndimg.com/content/dam/images/food/fullset/2013/6/28/0/FNK_Apple-Pie_s4x3.jpg"
+      }, {
+        "name": "Homemade Pizza",
+        "price":"14",
+        "description": "Homemade Cheese and Pepperoni Pizzas, by Greg.",
+        "image": "http://www.realfoodfinds.com/wp-content/uploads/2013/09/Homemade-Pizza-11.jpg"
+    }, {
+      "name": "lilikoi pie",
+      "price":"8",
+      "description": "Hawiian-style Passionfruit pie.",
+      "image": "http://www.tedsbakery.com/img/food/Lilikoi_Cheese_Pie.jpg"
+    }, {
+      "name": "water taffy",
+      "price":"5",
+      "description": "Homemade water-taffy. Flavors include: tropical, original, and fruit.",
+      "image": "http://www.painlesscooking.com/images/taffy.jpg"
+    }, {
+      "name": "Kettle Chips",
+      "price":"10",
+      "description": "Sour Cream and Onion home-made kettle chips. Local and organic ingredients.",
+      "image": "https://media2.popsugar-assets.com/files/2013/03/12/3/192/1922195/42f341d75a3b7129_New-Kettle-Chips-Flavors.preview.jpg"
+    }, {
+      "name": "brownies",
+      "price":"9",
+      "description": "Chocolate-chip and coconut brownies.",
+      "image": "http://www.inspiredtaste.net/wp-content/uploads/2013/08/Brownies-Recipe-2.jpg"
+    }]
 }
