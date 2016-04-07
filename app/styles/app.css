@@ -1,6 +1,6 @@
 img {
-  width: 120px;
-  height: 120px;
+  width: 130px;
+  height: 130px;
   opacity: .7;
 }
 
@@ -86,4 +86,13 @@ h1, h3, ul {
 }
 .textWhite {
   color: white;
+}
+
+.backer {
+  background-color: white;
+  width: 170px;
+  height: 200px;
+  position:relative;
+  padding-top: 2%;
+  padding-bottom: 2%;
 }
