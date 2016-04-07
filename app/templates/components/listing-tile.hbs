@@ -1,3 +1,5 @@
 <li> <h3 class="names"> {{#link-to 'listing' listing.id}}
   <img src="{{listing.image}}"> <br> {{namePrice}}  {{/link-to}}
 </h3> </li>
+
+<button class="btn btn-success" {{action 'addToCart' listing}}> Add to Cart </button>

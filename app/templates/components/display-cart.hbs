@@ -1,0 +1,14 @@
+<div class="cart2" class="container">
+<ol>
+{{#each shoppingCart.listings as |listing|}}
+<div class="col-md-6">
+  <button class="btn btn-danger" {{action 'removeFromCart' listing}}> X </button>
+</div>
+<div class="col-md-6">
+    <li class="bigger"> {{listing.name}}-${{listing.price}} </li>
+    <br>
+
+</div>
+{{/each}}
+</ol>
+</div>

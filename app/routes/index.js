@@ -1,6 +1,8 @@
 import Ember from 'ember';
 
 export default Ember.Route.extend({
+  shoppingCart: Ember.inject.service(),
+
   model() {
     return Ember.RSVP.hash({
       listings: this.store.findAll('listing'),

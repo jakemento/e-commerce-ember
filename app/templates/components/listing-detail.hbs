@@ -1,5 +1,7 @@
 {{#link-to 'index'}} Go Back to Inventory {{/link-to}}
 <hr>
+<button {{action 'addToCart' listing}}> Add to Cart </button>
+
 <button {{action 'delete' listing}}>Delete </button>
 <div class="moneyFormat">
   <p class="red"> ${{listing.price}} </p>
@@ -8,11 +10,11 @@
 <br>
 
 <div class="nameFormat">
-  <h2> {{listing.name}} </h2>
+  <h2 class="textWhite"> {{listing.name}} </h2>
 </div>
 <br>
 <div class="descriptionFormat">
-  <p> Description: {{listing.description}} </p>
+  <p class="textWhite"> Description: {{listing.description}} </p>
 </div>
 <br>
 <img src="{{listing.image}}">

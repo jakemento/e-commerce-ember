@@ -57,12 +57,33 @@ background-color: black;
   background-color: black;
   height: 85px;
   padding-bottom: 1px;
-  width: 34%;
+  width: 55%;
 }
-p, h1, h2, h3, li, ol, ul {
+h1, h3, ul {
   color: white;
 }
 
 .red {
   color: red;
+}
+
+.cart {
+  background-color: white;
+  color: black;
+  width: 20%;
+  border: 4px;
+  border-style: solid;
+  background-color: white;
+  width:40%;
+  height: 200px;
+  FLOAT: left;
+  margin-left: 30%;
+  overflow:scroll;
+}
+
+.bigger {
+  font-size: 18px;
+}
+.textWhite {
+  color: white;
 }
