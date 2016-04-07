@@ -1,6 +1,27 @@
 <header class="jumbotron">
   <center> <h1 class="fancyTitle"> Greg's General Store </h1> </center>
 
+  {{#rl-dropdown-container class="dropdown"}}
+    {{#rl-dropdown-toggle class="btn btn-default"}}
+      Inventory<span class="caret"></span>
+    {{/rl-dropdown-toggle}}
+
+    {{#rl-dropdown tagName="ul" class="dropdown-menu" closeOnChildClick="a:link"}}
+    <li><a href="/">View All</a></li>
+      <li><a href="/listing/0">Mountain-Man Jerky</a></li>
+      <li><a href="/listing/1">Smoked Bacon</a></li>
+      <li><a href="/listing/2">Chocolate Chip Cookies</a></li>
+      <li><a href="/listing/3">Coffee Beans</a></li>
+      <li><a href="/listing/4">Trail Mix</a></li>
+      <li><a href="/listing/5">Smoked Salmon</a></li>
+      <li><a href="/listing/6">Apple Pie</a></li>
+      <li><a href="/listing/7">Homemade pizza</a></li>
+      <li><a href="/listing/8">Lilikoi Pie</a></li>
+      <li><a href="/listing/9">Water Taffy</a></li>
+      <li><a href="/listing/10">Kettle Chips</a></li>
+      <li><a href="/listing/11">Brownies</a></li>
+    {{/rl-dropdown}}
+  {{/rl-dropdown-container}}
 
 <div class="cart">
   <center> <h2> Shopping Cart: </h2> </center>
@@ -15,6 +36,8 @@
 <br>
 <br>
 <br>
+
+
 </header>
 
 <div class="container">
